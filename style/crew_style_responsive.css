@@ -1,0 +1,159 @@
+@media screen and (max-width: 1500px) {
+	.crew-img {
+		width: 85%;
+	}
+	.crew-text {
+		top: 20%;
+		padding: 0 5% 0 15%;
+	}
+	.dots {
+		bottom: 15%;
+	}
+}
+@media screen and (max-width: 1050px) {
+	main {
+		position: absolute;
+		display: grid;
+		grid-template-columns: 1fr;
+		bottom: 0px;
+		justify-content: center;
+		justify-items: center;
+		align-items: center;
+		height: 90%;
+		width: 100%;
+	}
+	.crew-text-container {
+		text-align: center;
+	}
+	.crew-text {
+		top: 15%;
+		padding: 0 10rem;
+	}
+	.bio {
+		line-height: 1.6;
+	}
+	.name {
+		font-size: 55px;
+		margin: 0.5rem 0 2rem 0;
+	}
+	.dots {
+		bottom: 10%;
+		left: 50%;
+		transform: translate(-50%) scale(1.2);
+	}
+	.crew-img {
+		height: 100%;
+		width: auto;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.responsiv-menu p:not(:last-child) {
+		margin-bottom: 30px;
+	}
+	body h5 {
+		margin: 1rem 0 0rem 5%;
+		font-size: 24px;
+	}
+	main {
+		grid-template-columns: 1fr;
+		height: 90%;
+	}
+	.crew-text-container {
+		text-align: center;
+	}
+	.crew-text {
+		top: 20%;
+		padding: 0 6rem;
+	}
+	.roll {
+		font-size: 24px;
+	}
+	.bio {
+		line-height: 1.1;
+		font-size: 32px;
+	}
+	.name {
+		font-size: 30px;
+		margin: 0.5rem 0 1rem 0;
+	}
+	.dots {
+		bottom: 5%;
+		left: 50%;
+		transform: translate(-50%);
+	}
+	.crew-img {
+        height: 100%;
+	}
+}
+@media screen and (max-height: 868px) and (max-width: 768px) {
+    .crew-text {
+		top: 5%;
+		padding: 0 3rem;
+	}
+	.crew-text-container {
+		transform: scale(0.7);
+	}
+}
+
+@media screen and (max-width: 480px) {
+    main {
+		grid-template-columns: 1fr;
+		height: 90%;
+	}
+    .crew-img-container {
+		grid-row: 1/2;
+	}
+	.crew-text {
+		top: 20%;
+		padding: 0 0rem;
+	}
+	.roll {
+		font-size: 18px;
+	}
+	.bio {
+		line-height: 1.1;
+		font-size: 24px;
+	}
+	.name {
+		font-size: 25px;
+		margin: 0.5rem 0 0rem 0;
+	}
+    .dots {
+		bottom: 90%;
+		left: 50%;
+		transform: translate(-50%);
+	}
+	.crew-img {
+		height: 80%;
+	}
+}
+
+@media screen and (max-height: 900px) and (max-width: 480px) {
+	.crew-text-container {
+		transform: scale(0.9);
+	}
+}
+
+@media screen and (max-width: 380px) {
+	.crew-text {
+		top: 20%;
+		padding: 0 1rem;
+	}
+	.roll {
+		font-size: 18px;
+	}
+	.bio {
+		line-height: 1.1;
+	}
+	.name {
+		font-size: 25px;
+		margin: 0.5rem 0 0rem 0;
+	}
+	.crew-img {
+		height: 82%;
+	}
+	.dots {
+		bottom: 90%;
+	}
+}

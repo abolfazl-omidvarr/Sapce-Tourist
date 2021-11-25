@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap"
+			rel="stylesheet"
+		/>
+
+		<script type="text/javascript">
+			document.write(
+				'<link href="style/general_style.css?' +
+					Math.random() +
+					'" rel="stylesheet" type="text/css">'
+			);
+			document.write(
+				'<link href="style/header_style.css?' +
+					Math.random() +
+					'" rel="stylesheet" type="text/css">'
+			);
+			document.write(
+				'<link href="style/tech_style.css?' +
+					Math.random() +
+					'" rel="stylesheet" type="text/css">'
+			);
+			document.write(
+				'<link href="style/tech_style_responsive.css?' +
+					Math.random() +
+					'" rel="stylesheet" type="text/css">'
+			);
+			document.write(
+				"<scr" +
+					'ipt src="script/technology_script.js?' +
+					Math.random() +
+					' "defer></scr' +
+					"ipt>"
+			);
+			document.write(
+				"<scr" +
+					'ipt src="script/responsive_menu_script.js?' +
+					Math.random() +
+					' "defer></scr' +
+					"ipt>"
+			);
+		</script>
+
+		<title>Space tourism website</title>
+	</head>
+	<body>
+		<header>
+			<img src="img/shared/logo.svg" alt="" class="logo" />
+			<div class="head-line"></div>
+			<nav>
+				<a href="index.html" class="nav-butt"
+					><span class="nav-link-num">00 </span>Home</a
+				>
+				<a href="destination.html" class="nav-butt"
+					><span class="nav-link-num">01 </span>Destination</a
+				>
+				<a href="crew.html" class="nav-butt"
+					><span class="nav-link-num">02 </span>Crew</a
+				>
+				<a href="technology.html" class="nav-butt"
+					><span class="nav-link-num">03 </span>Technology</a
+				>
+			</nav>
+			<button data-show="false" class="nav-butt-resp nav-menu-close"></button>
+		</header>
+		<div class="sub-head">
+			<h5><span> 02 </span> Meet your crew</h5>
+			<h4 class="roll">THE TERMINOLOGY…</h4>
+		</div>
+		<main>
+			<div class="dots">
+				<button class="dot dot1 dot-active" data-slide="1">1</button>
+				<button class="dot dot2" data-slide="2">2</button>
+				<button class="dot dot3" data-slide="3">3</button>
+			</div>
+			<div class="tech-text-container">
+				<div class="tech-text1 tech-text" data-slide="1">
+					<h3 class="name">LAUNCH VEHICLE</h3>
+					<p class="bio">
+						A launch vehicle or carrier rocket is a rocket-propelled vehicle
+						used to carry a payload from Earth's surface to space, usually to
+						Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful
+						in operation. Standing 150 metres tall, it's quite an awe-inspiring
+						sight on the launch pad!
+					</p>
+				</div>
+				<div class="tech-text2 tech-text" data-slide="2">
+					<h3 class="name">SPACEPORT</h3>
+					<p class="bio">
+						A spaceport or cosmodrome is a site for launching (or receiving)
+						spacecraft, by analogy to the seaport for ships or airport for
+						aircraft. Based in the famous Cape Canaveral, our spaceport is
+						ideally situated to take advantage of the Earth’s rotation for
+						launch.
+					</p>
+				</div>
+				<div class="tech-text3 tech-text" data-slide="3">
+					<h3 class="name">SPACE CAPSULE</h3>
+					<p class="bio">
+						A space capsule is an often-crewed spacecraft that uses a blunt-body
+						reentry capsule to reenter the Earth's atmosphere without wings. Our
+						capsule is where you'll spend your time during the flight. It
+						includes a space gym, cinema, and plenty of other activities to keep
+						you entertained.
+					</p>
+				</div>
+			</div>
+			<div class="imgs">
+				<div class="img img1" data-slide="1">
+					<img src="img/technology/image-launch-vehicle-portrait.jpg" alt="" />
+				</div>
+				<div class="img img2" data-slide="2">
+					<img src="img/technology/image-space-capsule-portrait.jpg" alt="" />
+				</div>
+				<div class="img img3" data-slide="3">
+					<img src="img/technology/image-spaceport-portrait.jpg" alt="" />
+				</div>
+			</div>
+		</main>
+	</body>
+</html>

@@ -1,0 +1,111 @@
+:root {
+	/*Colors : */
+	--dark: #0b0d17;
+	--light: rgb(208, 214, 249);
+	--white: #fff;
+}
+/*******************************************/
+/*CSS RESET*********************************/
+/*******************************************/
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+body {
+	display: block;
+}
+
+/*******************************************/
+/*******************************************/
+
+body {
+	position: relative;
+	font-family: "Bellefair", serif;
+	color: var(--white);
+	transition: all 0.4s ease-in-out;
+}
+ol,
+ul {
+	list-style-type: none;
+}
+button {
+	font-family: inherit;
+	cursor: pointer;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+nav {
+	text-transform: uppercase;
+}
+h1 {
+	font-size: 150px;
+}
+h2 {
+	font-size: 100px;
+}
+h3 {
+	font-size: 56px;
+}
+h4 {
+	font-size: 32px;
+}
+h5 {
+	font-family: "Barlow Condensed", sans-serif;
+	font-size: 28px;
+	letter-spacing: 4.75px;
+	color: var(--light);
+}
+.sub-heading1 {
+	font-size: 28px;
+	text-transform: uppercase;
+	color: #fff;
+}
+.sub-heading2 {
+	font-family: "Barlow Condensed", sans-serif;
+	font-size: 14px;
+	letter-spacing: 2.35px;
+	text-transform: uppercase;
+}
+nav,.nav-text {
+	font-family: "Barlow Condensed", sans-serif;
+	font-size: 16px;
+	letter-spacing: 2.7px;
+	text-transform: uppercase;
+}
+p {
+	font-size: 28px;
+	color: var(--light);
+}
+body h5 {
+	margin: 5rem 0 5rem 11%;
+	color: #fff;
+}
+h5 span {
+	color: rgb(104, 103, 109);
+	font-weight: bold;
+	margin-right: 10px;
+}

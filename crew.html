@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap"
+			rel="stylesheet"
+		/>
+		<script type="text/javascript">
+			document.write(
+				'<link href="style/general_style.css?' +
+					Math.random() +
+					'" rel="stylesheet" type="text/css">'
+			);
+			document.write(
+				'<link href="style/header_style.css?' +
+					Math.random() +
+					'" rel="stylesheet" type="text/css">'
+			);
+			document.write(
+				'<link href="style/crew_style.css?' +
+					Math.random() +
+					'" rel="stylesheet" type="text/css">'
+			);
+			document.write(
+				'<link href="style/crew_style_responsive.css?' +
+					Math.random() +
+					'" rel="stylesheet" type="text/css">'
+			);
+			document.write(
+				"<scr" +
+					'ipt src="script/crew_script.js?' +
+					Math.random() +
+					' "defer></scr' +
+					"ipt>"
+			);
+			document.write(
+				"<scr" +
+					'ipt src="script/responsive_menu_script.js?' +
+					Math.random() +
+					' "defer></scr' +
+					"ipt>"
+			);
+		</script>
+		
+		<title>Space tourism website</title>
+	</head>
+	<body>
+		<header>
+			<img src="img/shared/logo.svg" alt="" class="logo" />
+			<div class="head-line"></div>
+			<nav>
+				<a href="index.html" class="nav-butt"
+					><span class="nav-link-num">00 </span>Home</a
+				>
+				<a href="destination.html" class="nav-butt"
+					><span class="nav-link-num">01 </span>Destination</a
+				>
+				<a href="crew.html" class="nav-butt"
+					><span class="nav-link-num">02 </span>Crew</a
+				>
+				<a href="technology.html" class="nav-butt"
+					><span class="nav-link-num">03 </span>Technology</a
+				>
+			</nav>
+			<button data-show="false" class="nav-butt-resp nav-menu-close"></button>
+		</header>
+		<h5><span> 02 </span> Meet your crew</h5>
+
+		<main>
+			<div class="crew-text-container">
+				<div class="crew-text1 crew-text" data-slide="1">
+					<h4 class="roll">Commander</h4>
+					<h3 class="name">Douglas Hurley1</h3>
+					<p class="bio">
+						Douglas Gerald Hurley is an American engineer, former Marine Corps
+						pilot and former NASA astronaut. He launched into space for the
+						third time as commander of Crew Dragon Demo-2.
+					</p>
+				</div>
+				<div class="crew-text2 crew-text" data-slide="2">
+					<h4 class="roll">Flight Engineer</h4>
+					<h3 class="name">Anousheh Ansari</h3>
+					<p class="bio">
+						Anousheh Ansari is an Iranian American engineer and co-founder of
+						Prodea Systems. Ansari was the fourth self-funded space tourist, the
+						first self-funded woman to fly to the ISS, and the first Iranian in
+						space.
+					</p>
+				</div>
+				<div class="crew-text3 crew-text" data-slide="3">
+					<h4 class="roll">Mission Specialist</h4>
+					<h3 class="name">MARK SHUTTLEWORTH</h3>
+					<p class="bio">
+						Mark Richard Shuttleworth is the founder and CEO of Canonical, the
+						company behind the Linux-based Ubuntu operating system. Shuttleworth
+						became the first South African to travel to space as a space
+						tourist.
+					</p>
+				</div>
+				<div class="crew-text4 crew-text" data-slide="4">
+					<h4 class="roll">PILOT</h4>
+					<h3 class="name">Victor Glover</h3>
+					<p class="bio">
+						Pilot on the first operational flight of the SpaceX Crew Dragon to
+						the International Space Station. Glover is a commander in the U.S.
+						Navy where he pilots an F/A-18.He was a crew member of Expedition
+						64, and served as a station systems flight engineer.
+					</p>
+				</div>
+				<div class="dots">
+					<button class="dot dot1 dot-active" data-slide="1"></button>
+					<button class="dot dot2" data-slide="2"></button>
+					<button class="dot dot3" data-slide="3"></button>
+					<button class="dot dot4" data-slide="4"></button>
+				</div>
+			</div>
+			<figure class="crew-img-container">
+				<img
+					class="crew-img1 crew-img"
+					src="img/crew/image-douglas-hurley.webp"
+					data-slide="1"
+					alt=""
+				/>
+				<img
+					class="crew-img2 crew-img"
+					src="img/crew/image-anousheh-ansari.webp"
+					data-slide="2"
+					alt=""
+				/>
+				<img
+					class="crew-img3 crew-img"
+					src="img/crew/image-mark-shuttleworth.webp"
+					data-slide="3"
+					alt=""
+				/>
+				<img
+					class="crew-img4 crew-img"
+					src="img/crew/image-victor-glover.webp"
+					data-slide="4"
+					alt=""
+				/>
+			</figure>
+		</main>
+	</body>
+</html>

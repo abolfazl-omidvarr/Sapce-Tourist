@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap"
+			rel="stylesheet"
+		/>
+
+		<script type="text/javascript">
+			document.write(
+				'<link href="style/general_style.css?' +
+					Math.random() +
+					'" rel="stylesheet" type="text/css">'
+			);
+			document.write(
+				'<link href="style/header_style.css?' +
+					Math.random() +
+					'" rel="stylesheet" type="text/css">'
+			);
+			document.write(
+				'<link href="style/destination.css?' +
+					Math.random() +
+					'" rel="stylesheet" type="text/css">'
+			);
+			document.write(
+				'<link href="style/destination_responsive.css?' +
+					Math.random() +
+					'" rel="stylesheet" type="text/css">'
+			);
+			document.write(
+				"<scr" +
+					'ipt src="script/destination_script.js?' +
+					Math.random() +
+					' "defer></scr' +
+					"ipt>"
+			);
+			document.write(
+				"<scr" +
+					'ipt src="script/responsive_menu_script.js?' +
+					Math.random() +
+					' "defer></scr' +
+					"ipt>"
+			);
+		</script>
+
+		<title>Space tourism</title>
+	</head>
+	<body>
+		<header>
+			<img src="img/shared/logo.svg" alt="" class="logo" />
+			<div class="head-line"></div>
+			<nav>
+				<a href="index.html" class="nav-butt"
+					><span class="nav-link-num">00 </span>Home</a
+				>
+				<a href="destination.html" class="nav-butt"
+					><span class="nav-link-num">01 </span>Destination</a
+				>
+				<a href="crew.html" class="nav-butt"
+					><span class="nav-link-num">02 </span>Crew</a
+				>
+				<a href="technology.html" class="nav-butt"
+					><span class="nav-link-num">03 </span>Technology</a
+				>
+			</nav>
+			<button data-show = "false" class="nav-butt-resp nav-menu-close"></button>
+		</header>
+		<main>
+			<h5><span> 01 </span> Pick your destination</h5>
+
+			<figure>
+				<div class="planets">
+					<img
+						class="plnt-img"
+						data-plnt="1"
+						src="img/destination/image-moon.webp"
+						alt=""
+					/>
+					<img
+						class="plnt-img"
+						data-plnt="2"
+						src="img/destination/image-mars.webp"
+						alt=""
+					/>
+					<img
+						class="plnt-img"
+						data-plnt="3"
+						src="img/destination/image-europa.webp"
+						alt=""
+					/>
+					<img
+						class="plnt-img"
+						data-plnt="4"
+						src="img/destination/image-titan.webp"
+						alt=""
+					/>
+				</div>
+				<article class="planet-article">
+					<div class="article-menu nav-text">
+						<a
+							href=""
+							data-plnt="1"
+							class="article-nav-butt article-nav-butt-active"
+							>Moon</a
+						>
+						<a
+							href=""
+							data-plnt="2"
+							class="article-nav-butt article-nav-butt-hover"
+							>Mars</a
+						>
+						<a
+							href=""
+							data-plnt="3"
+							class="article-nav-butt article-nav-butt-hover"
+							>Europa</a
+						>
+						<a
+							href=""
+							data-plnt="4"
+							class="article-nav-butt article-nav-butt-hover"
+							>Titan</a
+						>
+					</div>
+					<div class="moon-info info" active="true" data-plnt="1">
+						<h1 class="article-head">moon</h1>
+						<p class="article-text">
+							See our planet as you’ve never seen it before. A perfect relaxing
+							trip away to help regain perspective and come back refreshed.
+							While you’re there, take in some history by visiting the Luna 2
+							and Apollo 11 landing sites.
+						</p>
+						<div class="travel-info">
+							<div class="planet-distance">
+								<p class="sub-heading2">Avg. distance</p>
+								<p class="sub-heading1">384,400 km</p>
+							</div>
+
+							<div class="planet-travlet">
+								<p class="sub-heading2">Est. travel time</p>
+								<p class="sub-heading1">3 days</p>
+							</div>
+						</div>
+					</div>
+					<div class="mars-info info" active="false" data-plnt="2">
+						<h1 class="article-head">mars</h1>
+						<p class="article-text">
+							Don’t forget to pack your hiking boots. You’ll need them to tackle
+							Olympus Mons, the tallest planetary mountain in our solar system.
+							It’s two and a half times the size of Everest!
+						</p>
+						<div class="travel-info">
+							<div class="planet-distance">
+								<p class="sub-heading2">Avg. distance</p>
+								<p class="sub-heading1">225 MIL. km</p>
+							</div>
+
+							<div class="planet-travlet">
+								<p class="sub-heading2">Est. travel time</p>
+								<p class="sub-heading1">9 months</p>
+							</div>
+						</div>
+					</div>
+					<div class="europa-info info" active="false" data-plnt="3">
+						<h1 class="article-head">Europa</h1>
+						<p class="article-text">
+							The smallest of the four Galilean moons orbiting Jupiter, Europa
+							is a winter lover’s dream. With an icy surface, it’s perfect for a
+							bit of ice skating, curling, hockey, or simple relaxation in your
+							snug wintery cabin.
+						</p>
+						<div class="travel-info">
+							<div class="planet-distance">
+								<p class="sub-heading2">Avg. distance</p>
+								<p class="sub-heading1">628 mil. km</p>
+							</div>
+
+							<div class="planet-travlet">
+								<p class="sub-heading2">Est. travel time</p>
+								<p class="sub-heading1">3 years</p>
+							</div>
+						</div>
+					</div>
+					<div class="titan-info info" active="false" data-plnt="4">
+						<h1 class="article-head">titan</h1>
+						<p class="article-text">
+							The only moon known to have a dense atmosphere other than Earth,
+							Titan is a home away from home (just a few hundred degrees
+							colder!). As a bonus, you get striking views of the Rings of
+							Saturn.
+						</p>
+						<div class="travel-info">
+							<div class="planet-distance">
+								<p class="sub-heading2">Avg. distance</p>
+								<p class="sub-heading1">1.6 BIL. km</p>
+							</div>
+
+							<div class="planet-travlet">
+								<p class="sub-heading2">Est. travel time</p>
+								<p class="sub-heading1">7 years</p>
+							</div>
+						</div>
+					</div>
+				</article>
+			</figure>
+		</main>
+	</body>
+</html>
